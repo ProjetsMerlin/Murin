@@ -1,14 +1,24 @@
 # murin
 
-formation next.js
+Révision next.js
 
-## commandes
+## Commandes utiles
 
-npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
-cd nextjs-dashboard
-npm i
-npm dev
+npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm\
+cd nextjs-dashboard\
+pnpm i
 
-npm uninstall bcrypt
-npm install bcryptjs
-npm install --save-dev @types/bcryptjs
+### Retirer le module natif bcrypt et ses types
+pnpm remove bcrypt @types/bcrypt
+
+### Installer la version JavaScript bcryptjs pure
+pnpm add bcryptjs
+
+### Supprimer le cache de build proprement
+Remove-Item .next -Recurse -Force
+
+### Ajout d'un debounce
+
+pnpm i use-debounce
+
+pnpm dev
