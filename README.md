@@ -1,5 +1,14 @@
-## Next.js App Router Course - Starter
+# murin
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+formation next.js
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## commandes
+
+npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
+cd nextjs-dashboard
+npm i
+npm dev
+
+npm uninstall bcrypt
+npm install bcryptjs
+npm install --save-dev @types/bcryptjs
