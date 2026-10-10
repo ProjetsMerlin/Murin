@@ -22,3 +22,11 @@ Remove-Item .next -Recurse -Force
 pnpm i use-debounce
 
 pnpm dev
+
+## Commandes GIT
+
+git init
+git config core.autocrlf
+git add .
+git commi -a -m "CRUD"
+git push origin main

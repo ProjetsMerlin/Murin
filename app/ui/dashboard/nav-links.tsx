@@ -7,9 +7,9 @@ import {
 } from '@heroicons/react/24/outline';
 
 const links = [
-  { name: 'Home', href: '/dashboard', icon: HomeIcon },
-  { name: 'Invoices', href: '/dashboard/invoices', icon: DocumentDuplicateIcon,},
-  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  { name: 'Bienvenue', href: '/dashboard', icon: HomeIcon },
+  { name: 'Factures', href: '/dashboard/invoices', icon: DocumentDuplicateIcon,},
+  { name: 'Clients', href: '/dashboard/customers', icon: UserGroupIcon },
 ];
 
 import Link from 'next/link';
@@ -26,6 +26,7 @@ export default function NavLinks() {
         const LinkIcon = link.icon;
         return (
           <Link
+            title= {link.name}
             key={link.name}
             href={link.href}
             className={clsx(
