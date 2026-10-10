@@ -6,6 +6,7 @@ Révision next.js
 
 npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm\
 cd nextjs-dashboard\
+pnpm add -D eslint eslint-config-next\
 pnpm i
 
 ### Retirer le module natif bcrypt et ses types

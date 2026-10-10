@@ -3,4 +3,7 @@ packages:
 allowBuilds:
   bcrypt: false
   sharp: set this to true or false
+  unrs-resolver: false
 minimumReleaseAge: 2880
+minimumReleaseAgeExclude:
+  - baseline-browser-mapping@2.11.28
