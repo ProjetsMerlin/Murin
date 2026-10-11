@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
+
 import Link from 'next/link';
 import { FaceFrownIcon } from '@heroicons/react/24/outline';
- 
+
+export const metadata: Metadata = {
+  title: 'Error 404',
+};
+
 export default function NotFound() {
   return (
     <main className="flex h-full flex-col items-center justify-center gap-2">

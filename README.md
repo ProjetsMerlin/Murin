@@ -1,6 +1,6 @@
-# murin
+# Murin
 
-Révision next.js
+Révision next.js 19 ; plateforme de facturation
 
 ## Commandes utiles
 
@@ -26,5 +26,8 @@ Remove-Item .next -Recurse -Force
 git init
 git config core.autocrlf
 git add .
-git commi -a -m "CRUD"
+git commit -a -m "comments"
 git push origin main
+
+## Access
+user@nextmail.com
