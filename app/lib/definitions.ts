@@ -83,3 +83,13 @@ export type InvoiceForm = {
   status: 'pending' | 'paid';
   date: string;
 };
+
+export type Article = {
+  id: string;
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  publishedAt: string;
+  imageUrl: string | null;
+};

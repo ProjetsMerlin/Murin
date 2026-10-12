@@ -4,12 +4,14 @@ import {
   UserGroupIcon,
   HomeIcon,
   DocumentDuplicateIcon,
+  ClipboardDocumentListIcon
 } from '@heroicons/react/24/outline';
 
 const links = [
   { name: 'Bienvenue', href: '/dashboard', icon: HomeIcon },
   { name: 'Factures', href: '/dashboard/invoices', icon: DocumentDuplicateIcon,},
   { name: 'Clients', href: '/dashboard/customers', icon: UserGroupIcon },
+  { name: 'Blog', href: '/dashboard/blog', icon: ClipboardDocumentListIcon },
 ];
 
 import Link from 'next/link';
